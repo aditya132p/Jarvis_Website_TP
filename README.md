@@ -38,12 +38,12 @@ To get a local copy of the project up and running, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/jarvis-website.git
+    git clone https://github.com/aditya132p/Jarvis_Website_TP.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd jarvis-website
+    cd Jarvis_Website_TP
     ```
 
 3. **Open `index.html` in your browser to view the website:**
