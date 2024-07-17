@@ -1,4 +1,3 @@
- window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 
 
 var swiper = new Swiper(".mySwiper", {
