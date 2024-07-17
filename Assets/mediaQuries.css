@@ -3,33 +3,14 @@
     :root {
         --padding-section: 3.5rem;
     }
-main{
-    overflow: hidden;
-}
+
+    main {
+        overflow: hidden;
+    }
+
     .btn-secondary {
         font-size: 1.1rem;
-        font-weight: var(--fw-500);
-        transition: background-color 0.5s ease, color 0.4s ease;
     }
-
-    .jarvis_title {
-        font-size: calc(var(--font-size) * 3.125);
-        line-height: normal;
-        letter-spacing: -2px;
-    }
-
-    .jarvis_subtitle {
-        font-size: var(--font-size);
-        padding-top: 2rem;
-    }
-
-    .box {
-        padding: 2.0625rem 2.5rem;
-        min-height: 187px;
-        border: 1px solid rgba(21, 102, 214, .18);
-
-    }
-
 
     .text_extra_big {
         font-size: 1.125rem;
@@ -39,7 +20,16 @@ main{
     h1 {
         font-size: 3.125rem;
         line-height: 104.627%;
-        letter-spacing: -2.68px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    button,
+    input[type="submit"] {
+        padding: 0.7rem 0.9rem;
+        font-size: 1rem;
     }
 
 
@@ -59,48 +49,57 @@ main{
         height: 0;
         overflow: hidden;
         right: 0;
-        align-items: flex-start;
+        align-items: start;
         gap: 1rem;
         padding: 0rem 2rem;
         background-color: #ffffff;
-        /* border: 2px solid black; */
         transition: all 0.4s ease-in-out;
         z-index: 1;
-        top: 80px;
+        top: 78px;
         left: -5%;
 
     }
-        button,
-        input[type="submit"] {
-            padding: 0.7rem 0.9rem;
-            font-size: 1rem;
-            font-weight: var(--fw-500);
-            border: none;
-            cursor: pointer;
-        }
+
+    .nav-center a {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-center a:nth-child(8) {
+        justify-content: start;
+    }
+
+    .nav-center a:nth-child(8) i:nth-child(1) {
+        font-size: 1rem;
+        padding-right: 0.2rem;
+    }
+
 
     .nav-center a::before {
-        position: relative;
+        display: none;
     }
 
     nav .hamburg {
         display: block;
     }
 
+    /* Jarvis Partners Started */
     .jarvis_partners_img_container {
         grid-template-columns: repeat(4, 1fr);
         column-gap: 3rem;
         row-gap: 0.8rem;
         /* mask-image: linear-gradient(to right, #00000080, #000000, #00000080); */
-
     }
+        /* Jarvis Partners Ended */
 
+                /* Jarvis Footer Started */
     .footer_center {
         padding-top: var(--padding-section);
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    /* Jarvis Footer Ended */
 }
 
 /* Media Quries on 991px  Ended*/
@@ -216,7 +215,7 @@ main{
 
     .jarvis_subtitle {
         font-size: var(--font-size);
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
     }
 
     h1 {
@@ -228,14 +227,16 @@ main{
     .container {
         max-width: 540px;
     }
-    header{
+
+    header {
         position: fixed;
         width: 100%;
         background-color: #ffffff;
     }
-        .hero-section{
-            padding-top: 5.5rem;
-        }
+
+    .hero-section {
+        padding-top: 5.5rem;
+    }
 
     .jarvis_why_us .jarvis_why_us_row {
 
