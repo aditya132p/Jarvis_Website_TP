@@ -183,6 +183,10 @@ nav .nav-center {
     background-color: var(--btn-primary);
     transition: width 0.5s cubic-bezier(0.82, 0.27, 0.41, 0.77), opacity 0.5s ease;
 }
+.nav-center a:nth-child(8) i:nth-child(1) {
+    font-size: 1rem;
+    padding-right: 0.1rem;
+}
 
 .nav-center i {
     font-size: calc(var(--font-size) * 1.3);
@@ -608,10 +612,10 @@ nav .hamburg {
     cursor: pointer;
 }
 
-/* .label_group input[type="checkbox"]:checked .label_group {
+.label_group:has(input[type="checkbox"]:checked)   {
     background-color: #0d6efd;
     color: #fff;
-} */
+}
 
 .label_group input[type="checkbox"] {
     display: none;
@@ -724,6 +728,10 @@ textarea:focus {
     font-weight: var(--fw-400);
     text-decoration: none;
     font-size: 1rem;
+    transition: color 0.5s ease;
+}
+.jv-product-link a:hover{
+    color: var(--secondary-color);
 }
 
 .footer_bottom {
